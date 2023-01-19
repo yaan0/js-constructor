@@ -1,0 +1,16 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "parcel ./src/index.html -p 4200 --open",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --dist-dir build --no-source-maps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}

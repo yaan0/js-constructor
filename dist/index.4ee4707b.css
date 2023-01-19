@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  width: calc(100% + 20px);
+  padding: 8px;
+  overflow-y: scroll;
+}
+
+#app {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  right: 0;
+}
+
+.sidebar {
+  width: 200px;
+  z-index: 100;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  box-shadow: inset -1px 0 #0000001a;
+}
+
+/*# sourceMappingURL=index.4ee4707b.css.map */
